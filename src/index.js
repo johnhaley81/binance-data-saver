@@ -11,8 +11,8 @@ const binanceWS = new BinanceWS();
 const appendDataToFile = fileName => data =>
   jsonfile.writeFileSync(fileName, data, { flag: 'a' });
 
-binanceWS.onDepthUpdate(symbol, appendDataToFile('./depth.json'));
+binanceWS.onDepthUpdate(symbol, appendDataToFile('./data/depth.json'));
 
-binanceWS.onAggTrade(symbol, appendDataToFile('./aggTrade.json'));
+binanceWS.onAggTrade(symbol, appendDataToFile('./data/aggTrade.json'));
 
-binanceWS.onKline(symbol, '1m', appendDataToFile('./kline1m.json'));
+binanceWS.onKline(symbol, '1m', appendDataToFile('./data/kline1m.json'));
