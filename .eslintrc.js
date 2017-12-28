@@ -96,11 +96,9 @@ module.exports = {
         ]
       }
     ],
-    "fp/no-nil": "error",
     "fp/no-proxy": "error",
     "fp/no-rest-parameters": "error",
     "fp/no-this": "error",
-    "fp/no-throw": "error",
     "fp/no-valueof-field": "error",
     "import/named": "error",
     "import/no-commonjs": "error",
