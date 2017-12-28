@@ -39,6 +39,7 @@
     "lint:watch": "yarn lint --watch",
     "lint": "esw src src/**.js --color",
     "precommit": "yarn lint",
+    "start": "yarn build && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"
