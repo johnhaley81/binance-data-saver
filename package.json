@@ -1,6 +1,6 @@
 {
   "author": "John Haley",
-  "description": "Saves data from streams for a specific symbol",
+  "description": "Saves data from binance streams for a specific symbol",
   "dependencies": {
     "binance": "^1.1.2",
     "jsonfile": "^4.0.0",
